@@ -149,10 +149,13 @@ header nav ul li a {
 
 .top-gym-logo {
   margin: 0 2rem;
-  border: 2px solid #fff;
+  border: 2px solid rgb(243, 237, 237);
   padding: 15px 10px 7px;
   text-align: center;
-  letter-spacing: 2px;
+  box-shadow: 0px 0px 10px rgb(243, 240, 240);
+  background: linear-gradient(45deg, #8a2387, #0a0607, #0c0b0b);
+  border-radius: 8px;
+  letter-spacing: -5px;
 }
 
 

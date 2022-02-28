@@ -291,26 +291,28 @@ header nav ul li a {
 
 #trainers {
   background: linear-gradient(45deg, #8a2387, #0a0607, #f6f6f8);
+  
 }
 
 #trainers-slider {
   width: 90%;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  align-items: center;
   margin: 0 auto;
-  
 }
 
 #trainers-slider .slick-slide {
   padding: 0 20px;
-  
-  
 }
 
 .trainer-slider-item img {
-  width: 600px;
+  width: 500px;
   border: 1px solid #7b7b7b;
   border-radius: 10px;
   box-shadow: 20px 20px 50px rgba(0, 0, 0, 0.5);
-  
 }
 
 #trainers-slider h4 {

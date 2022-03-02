@@ -589,8 +589,63 @@ header nav ul li a {
 
   .membership-cards-box .inner-container {
     padding: 0.5rem 1.5rem 1.5rem;
+    height: 100%;
+    box-sizing: border-box;
+  }
+
+  .membership-cards-box h2 {
+    font-size:2rem 1.5rem 1.5rem;
+  }
+
+  .personal-trainer-box {
+    padding: 2rem 1.5rem 1.5rem;
+  }
+
+  .personal-trainer-box p {
+    font-size: 0.85rem;
+  }
+
+  @media (min-width: 768px) {
+    header nav {
+      display: block !important;
+    }
+  }
+
+  @media (min-width: 767px) {
+    h2 {
+      font-size: 4rem;
+      margin-top: 2rem;
+    }
+
+    .flex {
+      display: block;
+    }
+
+    .flex .box {
+      margin: 0 auto;
+      width: 100% !important;
+      max-width: 3rem;
+    }
+
+    .flex .box:first-child {
+      margin-top: 0;
+    }
+
+    heder {
+      background: rgba(0, 0, 0, 0.85);
+    }
+
+    header .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: static;
+    }
+
   }
 }
+
+
 
 
 

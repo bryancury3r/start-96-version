@@ -716,6 +716,7 @@ header nav ul li a {
     }
     #schedule-services .flex > div {
       width: 100% !important;
+      
       margin-top: 3rem;
     }
 
@@ -732,8 +733,14 @@ header nav ul li a {
 
     .socialMedia small {
       font-size: 0.65rem;
-  
     }
+
+  }
+
+  @media (max-width: 500px) {
+    .membership-cards-box .inner-container {
+      min-height: 400px;
+    }    
 
   }
 }

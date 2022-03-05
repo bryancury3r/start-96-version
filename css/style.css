@@ -433,13 +433,21 @@ header nav ul li a {
 /* Footer */
 .socialMedia{
   background: #fff;
+  
 }
 
-.socialMedia #footer-logo a {
-  color: #fff;
-  font-size: 2rem;
-  padding: 1rem;
-  font-weight: bold;
+.socialMedia .arrow-up {
+  position: absolute;
+  right: 20px;
+  font-size:2.5rem;
+  color: #000;
+  
+}
+
+.socialMedia .arrow-up .ri-arrow-up-s-line {
+  color: #000;
+  
+  
 }
 
 .socialMedia #footer-logo:hover {

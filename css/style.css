@@ -220,7 +220,7 @@ header nav ul li a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  border-radius: 3px;
+  border-radius: 10px;
   background: linear-gradient(45deg, #8a2387, #0a0607, #f27121);
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.4);
   transform-style: preserve-3d;

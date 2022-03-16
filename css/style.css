@@ -61,7 +61,8 @@ a {
 }
 
 a:hover {
-  text-decoration: underline;
+  opacity: 0.8;
+  font-size: 1rem;
   
   
 }
@@ -139,6 +140,7 @@ header nav ul.flex {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  
 }
 
 header nav ul li a {
